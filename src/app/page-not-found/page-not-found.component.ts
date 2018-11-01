@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-page-not-found',
   template: `
     <p>
-      This page doesn't exist. Go back to <a routerLink="/home">Home</a>.
+      page-not-found works!
     </p>
   `,
   styles: []
 })
-export class HomeComponent implements OnInit {
+export class PageNotFoundComponent implements OnInit {
 
   constructor() { }
 
