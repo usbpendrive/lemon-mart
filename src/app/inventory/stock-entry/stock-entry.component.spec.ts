@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing'
 
-import { PosComponent } from './pos.component'
+import { StockEntryComponent } from './stock-entry.component'
 
-describe('PosComponent', () => {
-  let component: PosComponent
-  let fixture: ComponentFixture<PosComponent>
+describe('StockEntryComponent', () => {
+  let component: StockEntryComponent
+  let fixture: ComponentFixture<StockEntryComponent>
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [PosComponent]
+      declarations: [StockEntryComponent]
     }).compileComponents()
   }))
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PosComponent)
+    fixture = TestBed.createComponent(StockEntryComponent)
     component = fixture.componentInstance
     fixture.detectChanges()
   })
